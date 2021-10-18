@@ -2,7 +2,7 @@
   "meetup": [
     {
       "title": "music",
-      "discription": "how to ing songs",
+      "discription": "how to sing songs",
       "date": "1/03/2021",
       "time": "5:30",
       "users": "xyz",
@@ -10,7 +10,7 @@
     },
     {
       "title": "dance",
-      "discription": "how to ing songs",
+      "discription": "how to sing songs",
       "date": "26/01/2021",
       "time": "5:30",
       "users": "xyz",
@@ -18,7 +18,31 @@
     },
     {
       "title": "music",
-      "discription": "how to ing songs",
+      "discription": "how to sing songs",
+      "date": "05/02/2021",
+      "time": "5:30",
+      "users": "xyz",
+      "location": "mumbai"
+    },
+    {
+      "title": "music",
+      "discription": "how to sing songs",
+      "date": "1/03/2021",
+      "time": "5:30",
+      "users": "xyz",
+      "location": "banglore"
+    },
+    {
+      "title": "dance",
+      "discription": "how to sing songs",
+      "date": "26/01/2021",
+      "time": "5:30",
+      "users": "xyz",
+      "location": "mumbai"
+    },
+    {
+      "title": "music",
+      "discription": "how to sing songs",
       "date": "05/02/2021",
       "time": "5:30",
       "users": "xyz",
@@ -41,60 +65,11 @@
       "id": 2
     },
     {
-      "name": "",
-      "age": "",
-      "location": "",
-      "interest": "",
+      "name": "shruthi",
+      "age": "24",
+      "location": "banglore",
+      "interest": "music",
       "id": 3
-    },
-    {
-      "name": "",
-      "age": "",
-      "location": "",
-      "interest": "",
-      "id": 4
-    },
-    {
-      "name": "",
-      "age": "",
-      "location": "",
-      "interest": "",
-      "id": 5
-    },
-    {
-      "name": "",
-      "age": "",
-      "location": "",
-      "interest": "",
-      "id": 6
-    },
-    {
-      "name": "",
-      "age": "",
-      "location": "",
-      "interest": "",
-      "id": 7
-    },
-    {
-      "name": "",
-      "age": "",
-      "location": "",
-      "interest": "",
-      "id": 8
-    },
-    {
-      "name": "",
-      "age": "",
-      "location": "",
-      "interest": "",
-      "id": 9
-    },
-    {
-      "name": "",
-      "age": "",
-      "location": "",
-      "interest": "",
-      "id": 10
     }
   ]
 }

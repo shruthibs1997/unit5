@@ -5,31 +5,26 @@ import { useEffect, useState } from "react";
 function Dashboard(){
     const [list,setList]=useState([])
     const [person,setPerson]=useState({})
-    const [location,setLocation]=useState('');
+    const [location,setLocation]=useState("");
     const[interest,setInterest]=useState("")
     const [place,setPlace]=useState('')
 
     useEffect(()=>{
         getperson();
-        getlist();
     },[])
 
-    async function getlist(){
-        console.log(location);
-        console.log(interest)
+    async function getlist(x,y){
         var res = await axios.get("http://localhost:3004/meetup",{params:{
-            title:"music",
-            location:"banglore"
+            title:x,
+            location:y
         }})
         setList(res.data);
     }
 
     async function getperson(){
         var res = await axios.get("http://localhost:3004/person/1");
-        console.log(res.data.location);
-        setPerson(res.data)
-        setLocation(res.data.location);
-        setInterest(res.data.interest)
+        setPerson(res.data);
+        getlist(res.data.interest,res.data.location);
     }
 
     async function handlechange(){
@@ -37,8 +32,7 @@ function Dashboard(){
             ...person,
             location:place
         })
-        // getperson();
-        // getlist();
+        getperson();
     }
 
     return(
